@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Mingor/Desktop/IM_server/include/utility.h
+iostream
+-
+list
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+sys/epoll.h
+-
+fcntl.h
+-
+errno.h
+-
+unistd.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/Users/Mingor/Desktop/IM_server/src/server.cpp
+../include/utility.h
+C:/Users/Mingor/Desktop/IM_server/include/utility.h
+
